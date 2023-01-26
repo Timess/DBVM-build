@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          repository: cheat-engine/cheat-engine
+          repository: Timess/cheat-engine
           ref: master
           
       - run: sudo apt-get install -y yasm nasm mkisofs rar
